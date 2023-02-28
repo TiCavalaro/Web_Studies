@@ -1,0 +1,68 @@
+body{
+    background: url(../imagens/DALL·E\ 2023-02-27\ 12.09.49\ -\ a\ bigger\ moon.png);
+    background-position: center;    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: right bottom;
+        
+    
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid #ffffff;
+}
+.hero nav a{
+    background-color: rgba(87, 120, 204, 0.8);
+    display: block;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.hero nav a:hover{
+    background: rgb(130, 159, 231,0.5);
+}
+
+.hero-content h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+}
+
+.hero-content p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.a p a{
+    color: #FFFF9F;
+}
+.content-section{
+    text-align: left;
+    margin: 20px 50px 0 0
+}
+
+.content-section a{
+    color: rgb(255, 255, 255);
+}
+
+.content-section{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+
+}
