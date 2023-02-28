@@ -1,0 +1,104 @@
+body{
+    font-family: arial, sans-serif;
+    background: #1C82AD;
+    margin: 0;
+}
+
+.hero{
+    background-color: #13005A;
+    height: 300px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 0.1px solid transparent;
+    border-bottom: 8px solid #03C988;
+}
+
+.hero-content{
+    text-align: center;
+    color: #a9dfff;
+    margin-top: 0px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 3px #1C82AD;
+}
+.hero-content p{
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 4px solid #03C988;
+    text-shadow:  #000000;
+}
+
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid #03C988;
+}
+.hero nav a{
+    background-color: hsla(197, 41%, 45%, 0.8);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.hero nav a:hover{
+    background: rgba(3,201,136, 1);
+}
+
+
+main{
+    width: 80%;
+    margin: auto;
+    background-color: #00337C;
+}
+
+.content-section{
+    background-color: #13005A;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card img {
+   width: 100%; 
+    display: block;
+}
+.card p{
+    background-color: #6af8c9;
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
+
+
+.rodape{
+    position: fixed;
+    bottom: 0;
+    background-color:transparent;
+    color: #FFF;
+    width: 100%;
+    height: 40px;    
+    text-align: center;
+}
